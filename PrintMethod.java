@@ -18,5 +18,13 @@ public class PrintMethod{
 		boolean IsJavaFun = true;
 		System.out.printf("Is java fun? %b",IsJavaFun);
 		
+		//using blank lines
+		//blank lines, space characters and tabs makes programmes easier to read.the compiler ignores blank space.
+		
+		
+		
+		
+		
+		
 	}
 }
