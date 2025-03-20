@@ -34,5 +34,9 @@ public class DataType{
 	//character type(char)
 	char alpha ='@';
 	System.out.printf("My email is mercyben405%cgmail.com",alpha);
+	
+	
+	
+	// git status,git add -A, git commit -m "....",git push
    }
 }
