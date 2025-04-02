@@ -1,0 +1,42 @@
+  //write a java program to accept ten 10 numbers from a user and 
+  //find the sum of 6 -9 numbers and the sum of 4 to 10 numbers
+  //susbtract the sum of  6-9 from the sum of 4 -10 and display the result
+  
+ 
+
+import java.util.Scanner;
+
+public class SumAndDifference {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+		
+        int sumOf6_9 = 0;
+		int sumOf4_10 = 0;
+		int difference;
+		
+        for(int i = 1; i <= 10; i++) {
+			        System.out.printf("Enter num%d; ", i);
+					int num = input.nextInt();
+					
+					if (i >=6 && i <= 9){
+						sumOf6_9 += num;
+						
+					}
+					
+					if (i >=4 && i <= 10){
+						sumOf6_9 += num;
+					}
+	           }
+		
+		difference = sumOf4_10 - sumOf6_9;
+		
+		System.out.printf("The difference is %d", difference);
+						
+
+    }
+}
+
+
+
+
+
